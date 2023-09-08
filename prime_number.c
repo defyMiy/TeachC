@@ -26,7 +26,7 @@ void primeNumber(int value) { // function หาจำนวนเฉพาะ �
 
 int main() {
     printf("program find prime from 2 to input number");
-    printf("enter input number: ");
+    printf("\nenter input number: ");
     int num;
     scanf("%d", &num); //รับค่่าตัวเลข
     if(num < 2) { // จำนวนเฉพาะไม่สามารถมีค่าน้อยกว่า 2 ได้
